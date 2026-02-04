@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Helena,Oct,all,32,58
+Helena,Oct,<2000,32,58
+Helena,Oct,2026,35,57
+Helena,Nov,all,21,42
+Helena,Nov,<2000,21,42
+Helena,Nov,2026,28,49
+Helena,Dec,all,13,33
+Helena,Dec,<2000,13,33
+Helena,Dec,2026,24,44
+Helena,Jan,all,11,31
+Helena,Jan,<2000,9,29
+Helena,Jan,2026,23,42
+Helena,Feb,all,15,36
+Helena,Feb,<2000,15,36
+Helena,Mar,all,23,45
+Helena,Mar,<2000,22,44

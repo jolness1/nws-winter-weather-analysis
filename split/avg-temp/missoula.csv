@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Missoula,Oct,all,32,57
+Missoula,Oct,<2000,31,57
+Missoula,Oct,2026,34,56
+Missoula,Nov,all,24,41
+Missoula,Nov,<2000,24,41
+Missoula,Nov,2026,31,47
+Missoula,Dec,all,17,31
+Missoula,Dec,<2000,17,31
+Missoula,Dec,2026,27,41
+Missoula,Jan,all,16,31
+Missoula,Jan,<2000,14,30
+Missoula,Jan,2026,22,38
+Missoula,Feb,all,20,37
+Missoula,Feb,<2000,20,37
+Missoula,Mar,all,26,47
+Missoula,Mar,<2000,25,46

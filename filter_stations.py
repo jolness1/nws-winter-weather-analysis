@@ -11,7 +11,7 @@ def filter_and_sort(input_csv, output_csv, year_prefix="2026"):
             if maxdate.startswith(year_prefix):
                 rows.append(r)
 
-    # Sort by mindate ascending (empty mindate go to end)
+    # sort by mindate ascending (empty mindate go to end)
     rows.sort(key=lambda r: r.get("mindate") or "9999-12-31")
 
     if not rows:
@@ -24,7 +24,7 @@ def filter_and_sort(input_csv, output_csv, year_prefix="2026"):
         writer.writerows(rows)
 
     print(f"Wrote {len(rows)} rows to {output_csv}")
-    # Print first 10 lines
+    # print first 10 lines
     for r in rows[:10]:
         print(r["id"], r["name"], r.get("mindate"), r.get("maxdate"))
 

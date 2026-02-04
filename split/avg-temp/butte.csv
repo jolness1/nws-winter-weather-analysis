@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Butte,Oct,all,28,55
+Butte,Oct,<2000,29,56
+Butte,Oct,2026,30,54
+Butte,Nov,all,18,41
+Butte,Nov,<2000,18,41
+Butte,Nov,2026,24,48
+Butte,Dec,all,10,32
+Butte,Dec,<2000,10,32
+Butte,Dec,2026,22,41
+Butte,Jan,all,7,30
+Butte,Jan,<2000,7,30
+Butte,Jan,2026,16,39
+Butte,Feb,all,11,34
+Butte,Feb,<2000,11,34
+Butte,Mar,all,18,41
+Butte,Mar,<2000,18,41

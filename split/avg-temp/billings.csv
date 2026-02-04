@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Billings,Oct,all,37,60
+Billings,Oct,<2000,37,61
+Billings,Oct,2026,39,60
+Billings,Nov,all,26,45
+Billings,Nov,<2000,26,45
+Billings,Nov,2026,31,52
+Billings,Dec,all,18,36
+Billings,Dec,<2000,18,36
+Billings,Dec,2026,25,44
+Billings,Jan,all,15,34
+Billings,Jan,<2000,14,32
+Billings,Jan,2026,27,46
+Billings,Feb,all,19,38
+Billings,Feb,<2000,19,39
+Billings,Mar,all,25,47
+Billings,Mar,<2000,25,46

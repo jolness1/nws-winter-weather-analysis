@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Glasgow,Oct,all,33,58
+Glasgow,Oct,<2000,33,59
+Glasgow,Oct,2026,35,61
+Glasgow,Nov,all,19,40
+Glasgow,Nov,<2000,19,40
+Glasgow,Nov,2026,22,42
+Glasgow,Dec,all,7,27
+Glasgow,Dec,<2000,7,26
+Glasgow,Dec,2026,7,27
+Glasgow,Jan,all,2,22
+Glasgow,Jan,<2000,0,20
+Glasgow,Jan,2026,10,27
+Glasgow,Feb,all,7,27
+Glasgow,Feb,<2000,7,27
+Glasgow,Mar,all,18,40
+Glasgow,Mar,<2000,18,39

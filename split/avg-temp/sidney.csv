@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Sidney,Oct,all,32,60
+Sidney,Oct,<2000,32,59
+Sidney,Oct,2026,54,73
+Sidney,Nov,all,19,41
+Sidney,Nov,<2000,19,41
+Sidney,Nov,2026,11,47
+Sidney,Dec,all,8,29
+Sidney,Dec,<2000,7,29
+Sidney,Dec,2026,16,40
+Sidney,Jan,all,3,24
+Sidney,Jan,<2000,0,22
+Sidney,Jan,2026,27,43
+Sidney,Feb,all,8,30
+Sidney,Feb,<2000,7,30
+Sidney,Mar,all,18,43
+Sidney,Mar,<2000,17,41

@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Miles City,Oct,all,35,61
+Miles City,Oct,<2000,36,61
+Miles City,Oct,2026,37,62
+Miles City,Nov,all,22,43
+Miles City,Nov,<2000,22,43
+Miles City,Nov,2026,26,49
+Miles City,Dec,all,12,32
+Miles City,Dec,<2000,12,32
+Miles City,Dec,2026,17,38
+Miles City,Jan,all,7,28
+Miles City,Jan,<2000,6,27
+Miles City,Jan,2026,17,37
+Miles City,Feb,all,12,33
+Miles City,Feb,<2000,12,34
+Miles City,Mar,all,22,45
+Miles City,Mar,<2000,21,44

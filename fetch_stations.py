@@ -7,7 +7,7 @@ import argparse
 
 BASE_URL = "https://www.ncei.noaa.gov/cdo-web/api/v2"
 
-# Optional: load env from .env files (install python-dotenv to use)
+# optional: load env from .env files (install python-dotenv to use)
 try:
     from dotenv import load_dotenv
     load_dotenv('.env')
@@ -25,11 +25,11 @@ def noaa_get(url, headers, params, max_attempts=5, timeout=15):
             if resp.status_code == 200:
                 return resp.json()
 
-            # Print snippet for debugging
+            # print snippet for debugging
             snippet = (resp.text or "")[:1000]
             print(f"NOAA {resp.status_code} for {url}: {snippet}")
 
-            # Respect Retry-After header if provided
+            # respect Retry-After header if provided
             ra = resp.headers.get("Retry-After")
             if ra:
                 try:

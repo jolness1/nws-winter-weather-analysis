@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Kalispell,Oct,all,31,55
+Kalispell,Oct,<2000,32,55
+Kalispell,Oct,2026,31,55
+Kalispell,Nov,all,25,39
+Kalispell,Nov,<2000,25,39
+Kalispell,Nov,2026,29,43
+Kalispell,Dec,all,18,31
+Kalispell,Dec,<2000,18,31
+Kalispell,Dec,2026,26,38
+Kalispell,Jan,all,15,29
+Kalispell,Jan,<2000,14,29
+Kalispell,Jan,2026,22,33
+Kalispell,Feb,all,17,34
+Kalispell,Feb,<2000,17,34
+Kalispell,Mar,all,24,44
+Kalispell,Mar,<2000,24,43

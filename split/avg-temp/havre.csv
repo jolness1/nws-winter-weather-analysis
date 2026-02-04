@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Havre,Oct,all,31,59
+Havre,Oct,<2000,31,59
+Havre,Oct,2026,32,60
+Havre,Nov,all,19,42
+Havre,Nov,<2000,18,41
+Havre,Nov,2026,21,46
+Havre,Dec,all,8,30
+Havre,Dec,<2000,8,29
+Havre,Dec,2026,13,35
+Havre,Jan,all,5,27
+Havre,Jan,<2000,3,24
+Havre,Jan,2026,16,39
+Havre,Feb,all,10,32
+Havre,Feb,<2000,11,33
+Havre,Mar,all,20,43
+Havre,Mar,<2000,20,43

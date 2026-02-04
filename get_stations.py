@@ -4,6 +4,7 @@ import pandas as pd
 from datetime import datetime
 import os
 from pathlib import Path
+import argparse
 
 try:
     from dotenv import load_dotenv
@@ -16,7 +17,7 @@ BASE_URL = "https://www.ncei.noaa.gov/cdo-web/api/v2"
 HEADERS = {"token": NOAA_TOKEN} if NOAA_TOKEN else {}
 
 DATASET_ID = "GHCND"
-DATATYPES = ["TMAX", "TMIN", "PRCP", "SNOW", "SNWD"]  # Temp Max/Min, precipitation, snow depth & snowfall
+DATATYPES = ["TMAX", "TMIN", "PRCP", "SNOW", "SNWD"]  # temp max/min, precipitation, snow depth & snowfall
 
 REQUEST_SLEEP = 1.5
 ERROR_BACKOFF_EXTRA = 5.0
@@ -54,7 +55,7 @@ def noaa_get(endpoint, params):
             # retryable server-side or rate limit errors
             if response.status_code in (429, 500, 502, 503, 504):
                 if attempt < max_attempts:
-                    print(f"  ⚠ Rate limit or server error, waiting {backoff} seconds...")
+                    print(f"Rate limit or server error, waiting {backoff} seconds...")
                     time.sleep(backoff + ERROR_BACKOFF_EXTRA)
                     backoff *= 2
                     continue
@@ -67,7 +68,7 @@ def noaa_get(endpoint, params):
         except requests.exceptions.RequestException as exc:
             print(f"  ⚠ Request error on attempt {attempt}/{max_attempts}: {exc}")
             if attempt < max_attempts:
-                print(f"  Waiting {backoff + ERROR_BACKOFF_EXTRA} seconds before retry...")
+                print(f"Waiting {backoff + ERROR_BACKOFF_EXTRA} seconds before retry...")
                 time.sleep(backoff + ERROR_BACKOFF_EXTRA)
                 backoff *= 2
                 continue
@@ -126,6 +127,11 @@ def fetch_station_season(station_id, startdate, enddate):
     return records
 
 def main():
+    parser = argparse.ArgumentParser(description='Fetch station data or append recent 2026 window')
+    
+    parser.add_argument('--append-latest', action='store_true', help='Fetch and append data for 2026-01-23 to 2026-02-02')
+    args = parser.parse_args()
+
     if not NOAA_TOKEN:
         print("ERROR: NOAA_TOKEN is not set or looks invalid.\nSet a valid NOAA CDO token in the NOAA_TOKEN environment variable.")
         return
@@ -147,6 +153,42 @@ def main():
         safe_name = station_id.replace(":", "_")
         output_file = os.path.join(OUTPUT_DIR, f"{safe_name}.csv")
         
+        # if running in append mode, fetch only 2026-01-23 -> 2026-02-02 and append to file
+        if args.append_latest:
+            print(f"[{idx}/{len(stations)}] Appending 2026 window for: {station_id} ({station_name})")
+            try:
+                window_rows = []
+                # modify these dates to append newer data as needed
+                records = fetch_station_season(station_id, '2026-01-23', '2026-02-02')
+                for record in records:
+                    window_rows.append({
+                        "station_id": station_id,
+                        "station_name": station_name,
+                        "date": record["date"],
+                        "datatype": record["datatype"],
+                        "value": record["value"],
+                        "attributes": record.get("attributes", "")
+                    })
+
+                if window_rows:
+                    df = pd.DataFrame(window_rows)
+                    # append without header if file exists
+                    if os.path.exists(output_file):
+                        df.to_csv(output_file, index=False, header=False, mode='a')
+                        print(f"  ✓ Appended {len(window_rows)} records to {output_file}")
+                    else:
+                        df.to_csv(output_file, index=False)
+                        print(f"  ✓ Saved {len(window_rows)} records to new file {output_file}")
+                else:
+                    print(f"  ⚠ No records found for {station_id} in the 2026 window")
+
+            except Exception as e:
+                print(f"✗ ERROR appending {station_id}: {e}")
+                print("Continuing with next station...")
+            print()
+            continue
+
+        # default behavior: full seasonal fetch (existing logic)
         # check if already processed
         if os.path.exists(output_file):
             print(f"[{idx}/{len(stations)}] SKIPPING {station_id} - already exists")

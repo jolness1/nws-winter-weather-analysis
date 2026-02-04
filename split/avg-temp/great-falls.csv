@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Great Falls,Oct,all,35,59
+Great Falls,Oct,<2000,36,59
+Great Falls,Oct,2026,34,58
+Great Falls,Nov,all,25,44
+Great Falls,Nov,<2000,25,43
+Great Falls,Nov,2026,29,51
+Great Falls,Dec,all,17,35
+Great Falls,Dec,<2000,17,35
+Great Falls,Dec,2026,22,44
+Great Falls,Jan,all,14,33
+Great Falls,Jan,<2000,12,31
+Great Falls,Jan,2026,25,45
+Great Falls,Feb,all,16,36
+Great Falls,Feb,<2000,17,37
+Great Falls,Mar,all,22,44
+Great Falls,Mar,<2000,22,43

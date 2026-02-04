@@ -1,0 +1,177 @@
+station,month,year,avgMin,avgMax
+Billings,Oct,all,37,60
+Billings,Oct,<2000,37,61
+Billings,Oct,2026,39,60
+Bozeman,Oct,all,29,58
+Bozeman,Oct,<2000,29,58
+Bozeman,Oct,2026,31,57
+Butte,Oct,all,28,55
+Butte,Oct,<2000,29,56
+Butte,Oct,2026,30,54
+Glasgow,Oct,all,33,58
+Glasgow,Oct,<2000,33,59
+Glasgow,Oct,2026,35,61
+Great Falls,Oct,all,35,59
+Great Falls,Oct,<2000,36,59
+Great Falls,Oct,2026,34,58
+Havre,Oct,all,31,59
+Havre,Oct,<2000,31,59
+Havre,Oct,2026,32,60
+Helena,Oct,all,32,58
+Helena,Oct,<2000,32,58
+Helena,Oct,2026,35,57
+Kalispell,Oct,all,31,55
+Kalispell,Oct,<2000,32,55
+Kalispell,Oct,2026,31,55
+Miles City,Oct,all,35,61
+Miles City,Oct,<2000,36,61
+Miles City,Oct,2026,37,62
+Missoula,Oct,all,32,57
+Missoula,Oct,<2000,31,57
+Missoula,Oct,2026,34,56
+Sidney,Oct,all,32,60
+Sidney,Oct,<2000,32,59
+Sidney,Oct,2026,54,73
+Billings,Nov,all,26,45
+Billings,Nov,<2000,26,45
+Billings,Nov,2026,31,52
+Bozeman,Nov,all,18,42
+Bozeman,Nov,<2000,18,42
+Bozeman,Nov,2026,25,50
+Butte,Nov,all,18,41
+Butte,Nov,<2000,18,41
+Butte,Nov,2026,24,48
+Glasgow,Nov,all,19,40
+Glasgow,Nov,<2000,19,40
+Glasgow,Nov,2026,22,42
+Great Falls,Nov,all,25,44
+Great Falls,Nov,<2000,25,43
+Great Falls,Nov,2026,29,51
+Havre,Nov,all,19,42
+Havre,Nov,<2000,18,41
+Havre,Nov,2026,21,46
+Helena,Nov,all,21,42
+Helena,Nov,<2000,21,42
+Helena,Nov,2026,28,49
+Kalispell,Nov,all,25,39
+Kalispell,Nov,<2000,25,39
+Kalispell,Nov,2026,29,43
+Miles City,Nov,all,22,43
+Miles City,Nov,<2000,22,43
+Miles City,Nov,2026,26,49
+Missoula,Nov,all,24,41
+Missoula,Nov,<2000,24,41
+Missoula,Nov,2026,31,47
+Sidney,Nov,all,19,41
+Sidney,Nov,<2000,19,41
+Sidney,Nov,2026,11,47
+Billings,Dec,all,18,36
+Billings,Dec,<2000,18,36
+Billings,Dec,2026,25,44
+Bozeman,Dec,all,9,32
+Bozeman,Dec,<2000,9,32
+Bozeman,Dec,2026,22,45
+Butte,Dec,all,10,32
+Butte,Dec,<2000,10,32
+Butte,Dec,2026,22,41
+Glasgow,Dec,all,7,27
+Glasgow,Dec,<2000,7,26
+Glasgow,Dec,2026,7,27
+Great Falls,Dec,all,17,35
+Great Falls,Dec,<2000,17,35
+Great Falls,Dec,2026,22,44
+Havre,Dec,all,8,30
+Havre,Dec,<2000,8,29
+Havre,Dec,2026,13,35
+Helena,Dec,all,13,33
+Helena,Dec,<2000,13,33
+Helena,Dec,2026,24,44
+Kalispell,Dec,all,18,31
+Kalispell,Dec,<2000,18,31
+Kalispell,Dec,2026,26,38
+Miles City,Dec,all,12,32
+Miles City,Dec,<2000,12,32
+Miles City,Dec,2026,17,38
+Missoula,Dec,all,17,31
+Missoula,Dec,<2000,17,31
+Missoula,Dec,2026,27,41
+Sidney,Dec,all,8,29
+Sidney,Dec,<2000,7,29
+Sidney,Dec,2026,16,40
+Billings,Jan,all,15,34
+Billings,Jan,<2000,14,32
+Billings,Jan,2026,27,46
+Bozeman,Jan,all,7,30
+Bozeman,Jan,<2000,5,29
+Bozeman,Jan,2026,18,41
+Butte,Jan,all,7,30
+Butte,Jan,<2000,7,30
+Butte,Jan,2026,16,39
+Glasgow,Jan,all,2,22
+Glasgow,Jan,<2000,0,20
+Glasgow,Jan,2026,10,27
+Great Falls,Jan,all,14,33
+Great Falls,Jan,<2000,12,31
+Great Falls,Jan,2026,25,45
+Havre,Jan,all,5,27
+Havre,Jan,<2000,3,24
+Havre,Jan,2026,16,39
+Helena,Jan,all,11,31
+Helena,Jan,<2000,9,29
+Helena,Jan,2026,23,42
+Kalispell,Jan,all,15,29
+Kalispell,Jan,<2000,14,29
+Kalispell,Jan,2026,22,33
+Miles City,Jan,all,7,28
+Miles City,Jan,<2000,6,27
+Miles City,Jan,2026,17,37
+Missoula,Jan,all,16,31
+Missoula,Jan,<2000,14,30
+Missoula,Jan,2026,22,38
+Sidney,Jan,all,3,24
+Sidney,Jan,<2000,0,22
+Sidney,Jan,2026,27,43
+Billings,Feb,all,19,38
+Billings,Feb,<2000,19,39
+Bozeman,Feb,all,12,35
+Bozeman,Feb,<2000,12,35
+Butte,Feb,all,11,34
+Butte,Feb,<2000,11,34
+Glasgow,Feb,all,7,27
+Glasgow,Feb,<2000,7,27
+Great Falls,Feb,all,16,36
+Great Falls,Feb,<2000,17,37
+Havre,Feb,all,10,32
+Havre,Feb,<2000,11,33
+Helena,Feb,all,15,36
+Helena,Feb,<2000,15,36
+Kalispell,Feb,all,17,34
+Kalispell,Feb,<2000,17,34
+Miles City,Feb,all,12,33
+Miles City,Feb,<2000,12,34
+Missoula,Feb,all,20,37
+Missoula,Feb,<2000,20,37
+Sidney,Feb,all,8,30
+Sidney,Feb,<2000,7,30
+Billings,Mar,all,25,47
+Billings,Mar,<2000,25,46
+Bozeman,Mar,all,19,44
+Bozeman,Mar,<2000,18,42
+Butte,Mar,all,18,41
+Butte,Mar,<2000,18,41
+Glasgow,Mar,all,18,40
+Glasgow,Mar,<2000,18,39
+Great Falls,Mar,all,22,44
+Great Falls,Mar,<2000,22,43
+Havre,Mar,all,20,43
+Havre,Mar,<2000,20,43
+Helena,Mar,all,23,45
+Helena,Mar,<2000,22,44
+Kalispell,Mar,all,24,44
+Kalispell,Mar,<2000,24,43
+Miles City,Mar,all,22,45
+Miles City,Mar,<2000,21,44
+Missoula,Mar,all,26,47
+Missoula,Mar,<2000,25,46
+Sidney,Mar,all,18,43
+Sidney,Mar,<2000,17,41

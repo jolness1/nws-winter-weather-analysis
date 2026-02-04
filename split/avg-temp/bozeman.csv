@@ -1,0 +1,17 @@
+station,month,year,avgMin,avgMax
+Bozeman,Oct,all,29,58
+Bozeman,Oct,<2000,29,58
+Bozeman,Oct,2026,31,57
+Bozeman,Nov,all,18,42
+Bozeman,Nov,<2000,18,42
+Bozeman,Nov,2026,25,50
+Bozeman,Dec,all,9,32
+Bozeman,Dec,<2000,9,32
+Bozeman,Dec,2026,22,45
+Bozeman,Jan,all,7,30
+Bozeman,Jan,<2000,5,29
+Bozeman,Jan,2026,18,41
+Bozeman,Feb,all,12,35
+Bozeman,Feb,<2000,12,35
+Bozeman,Mar,all,19,44
+Bozeman,Mar,<2000,18,42
