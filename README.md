@@ -2,6 +2,7 @@
 Evaluating whether the weather (lol) this winter in Montana really is warmer than "normal" and other trends
 
 ## Prerequisites
+- [NOAA API Token — get one here](https://www.ncdc.noaa.gov/cdo-web/token)
 - Python 3 — tested on 3.14
 
 ## Getting started
